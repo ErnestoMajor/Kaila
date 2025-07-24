@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: rgb(233, 230, 228);
+    height: 800px;
+}
+
+main {
+    background-color: white;
+    height: 1500px;
+}
+
+div {
+    background-color: rgb(233, 230, 228);
+    height: 700px;
+}
+
+div.especial {
+    background-color: white;
+    height: 1500px;
+}
+
+div.especial2 {
+    background-color: rgb(233, 230, 228);
+    height: 500px;
+}
+
+div.especial3 {
+    background-color: white;
+    height: 900px;
+}
+
+div.especial4 {
+    background-color: rgb(233, 230, 228);
+    height: 750px;
+}
+
+footer {
+    background-color: white;
+    height: 500px;
+}
