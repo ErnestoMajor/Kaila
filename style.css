@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
+   margin: 0px;
     padding: 0px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -12,13 +12,40 @@ body {
 
 header {
     background-color: rgb(243, 242, 241);
-    height: 800px;
+    height: 1000px;
 }
+
+#kaira {
+    font-size: 2em;
+}
+
+h2
 
 li#lies {
     font-size: 2em;
     padding: 10px;
     margin: 10px;
+}
+
+h2.master {
+    font-size: 4.3em;
+    font-weight: 200;
+    padding: 30px;
+
+    text-align: center;
+}
+
+p.paragrafo {
+    text-align: center;
+    padding-bottom: 29px;
+    font-size: large;
+    line-height: 30px;
+    color: rgb(165, 164, 164);
+}
+
+.imgtop {
+    padding: 6px;
+    cursor: pointer;
 }
 
 /*ul > #option {
@@ -52,7 +79,7 @@ div {
 
 div.especial {
     background-color: white;
-    height: 1500px;
+    height: 1330px;
 }
 
 div.especial2 {
@@ -62,7 +89,7 @@ div.especial2 {
 
 div.especial3 {
     background-color: white;
-    height: 900px;
+    height: 1100px;
 }
 
 div.especial4 {
