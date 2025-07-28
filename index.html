@@ -8,6 +8,63 @@
 </head>
 <body>
     <header>
+    <!--   <div class="menu">
+    <div class="menu-item">Início</div>
+
+    <div class="menu-item" onclick="toggleSubmenu(this)">
+      Sobre
+      <div class="submenu">
+        <div>Quem Somos</div>
+        <div>Nossa Equipe</div>
+        <div>Missão e Visão</div>
+      </div>
+    </div>
+
+    <div class="menu-item" onclick="toggleSubmenu(this)">
+      Serviços
+      <div class="submenu">
+        <div>Consultoria</div>
+        <div>Design</div>
+        <div>Marketing</div>
+      </div>
+    </div>
+
+    <div class="menu-item" onclick="toggleSubmenu(this)">
+      Contato
+      <div class="submenu">
+        <div>Email</div>
+        <div>WhatsApp</div>
+        <div>Localização</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleSubmenu(element) {
+      // Fecha todos os outros submenus primeiro
+      document.querySelectorAll('.submenu').forEach(function(sub) {
+        if (sub !== element.querySelector('.submenu')) {
+          sub.classList.remove('show');
+        }
+      });
+
+      // Alterna o submenu clicado
+      const submenu = element.querySelector('.submenu');
+      if (submenu) {
+        submenu.classList.toggle('show');
+      }
+    }
+
+    // Fecha os submenus ao clicar fora do menu
+    document.addEventListener('click', function(e) {
+      const isMenuClick = e.target.closest('.menu-item');
+      if (!isMenuClick) {
+        document.querySelectorAll('.submenu').forEach(function(sub) {
+          sub.classList.remove('show');
+        });
+      }
+    });
+  </script> -->
         <menu>
             <ul onclick="clickMenu">
                 <li id="kaira">KAIRA</li>
@@ -57,27 +114,38 @@
 
         <h4 id="h4">Our New Arrivals</h4>
 
-        <a href="https://FotosModa.com"><img src="imagens/Baby1.jpg" alt="imagens de moda"></a>
-        <a href="https://FotosModa.com"><img src="imagens/Baby2.jpg" alt="imagens de moda"></a>
-        <a href="https://FotosModa.com"><img src="imagens/Baby3.jpg" alt="imagens de moda"></a>
-        <a href="https://FotosModa.com"><img src="imagens/ac.jpg" alt="imagens de moda"></a>
+        <a href="https://FotosModa.com"><img class="imgtopM" src="imagens/Baby1.jpg" alt="imagens de moda"></a>
+        <a href="https://FotosModa.com"><img class="imgtopM" src="imagens/Baby2.jpg" alt="imagens de moda"></a>
+        <a href="https://FotosModa.com"><img class="imgtopM" src="imagens/Baby3.jpg" alt="imagens de moda"></a>
+        <a href="https://FotosModa.com"><img class="imgtopM" src="imagens/ac.jpg" alt="imagens de moda"></a>
 
     </main>
-    <div>
-        <img src="imagens/man2.jpg" alt="imagens de moda">
-        <article>
-            <h3>Classic winter collection</h3>
-            <p>Dignissim lacus, turpis ut suspendisse vel <br> tellus. Turpis purus, gravida orci, fringilla a. <br> Ac sed eu fringilla odio mi. Consequat <br> pharetra at magna imperdiet cursus ac <br> faucibus sit libero. Ultricies quam nunc <br>, lorem sit lorem urna, pretium aliquam ut. In <br> vel, quis donec dolor id in. Pulvinar <br> commodo mollis diam sed facilisis at cursus <br> imperdiet cursus ac faucibus sit <br> faucibus sit libero.</p>
-        </article>
+    <div id="imgblock">
+        <img id="imagem" src="imagens/man2.jpg" alt="imagens de moda">
+        <h3 class="classic">Classic winter collection</h3>
+       <p class="paragrafoh3">
+            Dignissim lacus, turpis ut suspendisse vel
+            tellus. Turpis purus, gravida orci, fringilla a.
+            Ac <br> sed eu fringilla odio mi. Consequat
+            pharetra at magna imperdiet cursus ac
+            faucibus sit libero. <br> Ultricies quam nunc
+            , lorem sit lorem urna, pretium aliquam ut. In
+            vel, quis donec <br> dolor id in. Pulvinar
+            commodo mollis diam sed facilisis at cursus
+            imperdiet <br> cursus ac faucibus sit
+            faucibus sit libero.
+        </p>
+
     </div>
     <div class="especial">
-        <h4>Best Selling Items</h4>
+        <h4 class="classic2">Best Selling Items</h4>
 
-        <img src="imagens/barl1.jpg" alt="imagens de moda">
-        <img src="imagens/barl2.jpg" alt="imagens de moda">
-        <img src="imagens/barl3.jpg" alt="imagens de moda">
-        <img src="imagens/B.jpg" alt="imagens de moda"><br>
-        <img id="imagGrande" src="imagens/img.jpg" alt="imagGrande">
+        <img class="imgtopM" src="imagens/barl1.jpg" alt="imagens de moda">
+        <img class="imgtopM" src="imagens/barl2.jpg" alt="imagens de moda">
+        <img class="imgtopM" src="imagens/barl3.jpg" alt="imagens de moda">
+        <img class="imgtopM" src="imagens/BB.jpg" alt="imagens de moda">
+        <br><br>
+        <img id="imagGrande" class="imgtopM" src="imagens/new.jpg" alt="imagGrande">
 
     </div>
     <div class="especial2">
