@@ -7,67 +7,61 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: white;
 }
 
-/*
+
+
+.kaira {
+    position: relative;
+    padding: 14px 20px;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
 .menu {
-      background-color: #333;
-      display: flex;
-    }
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
 
-    .menu-item {
-      position: relative;
-      padding: 14px 20px;
-      color: white;
-      cursor: pointer;
-    }
+.menu-item {
+    position: relative;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
 
-    .menu-item:hover {
-      background-color: #444;
-    }
 
-    .submenu {
-      display: none;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      background-color: #444;
-      min-width: 160px;
-      z-index: 1;
-      flex-direction: column;
-    }
 
-    .submenu div {
-      padding: 12px 16px;
-      color: white;
-      cursor: pointer;
-    }
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #dbd5d5;
+    min-width: 160px;
+    z-index: 1;
+    flex-direction: column;
+}
 
-    .submenu div:hover {
-      background-color: #555;
-    }
+.submenu div {
+    padding: 12px 16px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
 
-    .show {
-      display: flex;
-    }
+.submenu div:hover {
+    background-color: #555;
+}
+
+.show {
+    display: flex;
+}
 */
 
 header {
-    background-color: rgb(243, 242, 241);
+    background-color: rgb(165, 164, 164) ;
     height: 1000px;
-}
-
-#kaira {
-    font-size: 2em;
-}
-
-h2
-
-li#lies {
-    font-size: 2em;
-    padding: 10px;
-    margin: 10px;
 }
 
 h2.master {
@@ -97,10 +91,10 @@ h2.master {
 
 .section {
     display: inline-block;
-    padding:30px;
+    padding: 50px;
     padding-top: 70px;
     padding-bottom: 70px;
-    margin: 20px;
+    margin: 18px;
 
 }
 
@@ -125,7 +119,7 @@ h2.master {
 
 #imgblock {
     background-color: rgb(243, 242, 241);
-    height: 790px;
+    height: 800px;
     position: relative;
 }
 
@@ -175,7 +169,7 @@ ul > li {
 
 main {
     background-color: white;
-    height: 1500px;
+    height: 1800px;
 }
 
 div.especial {
@@ -275,7 +269,9 @@ form {
 
 #pkaira {
     line-height: 29px;
+    font-size: large;
     color: rgb(155, 153, 153);
+    padding: 8px;
 
 }
 
@@ -285,17 +281,63 @@ form {
     
 }
 
+#kairafooter {
+    font-weight: 600;
+}
+
 .divfooter > h1 {
     font-weight: 100;
+}
+
+#Quick {
+    line-height: 100px;
+}
+
+.sociallogo {
+    color: rgb(155, 153, 153);
+    padding: 10px;
+}
+.pcont {
+    line-height: 37px;
+    font-size: large;
+    color: rgb(155, 153, 153);
+}
+
+.afooter {
+    font-size: large;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    line-height: 29px;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    list-style: none;
+    color: black;
+    line-height: 29px;
+}
+
+.footerh6 {
+    font-size: larger;
+    display: inline;
+    padding: 50px;
+    color: rgb(155, 153, 153);
+}
+
+#logolast {
+    padding-right: 150px;
+}
+
+#footerparag {
+    display: inline-block;
+    padding: 30px;
+    color: rgb(155, 153, 153);
+    font-size: large; 
 }
 
 footer {
     background-color: white;
 }
 
-a {
-    list-style: none;
-    text-decoration: none;
-    color: black;
-    line-height: 25px;
-}
