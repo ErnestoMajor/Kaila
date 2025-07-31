@@ -273,11 +273,29 @@ form {
     color: white;
 }
 
+#pkaira {
+    line-height: 29px;
+    color: rgb(155, 153, 153);
+
+}
+
 .divfooter {
     display: inline-block;
     padding: 50px;
+    
+}
+
+.divfooter > h1 {
+    font-weight: 100;
 }
 
 footer {
     background-color: white;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    line-height: 25px;
 }
