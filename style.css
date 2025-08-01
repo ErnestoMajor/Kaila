@@ -4,6 +4,7 @@
    margin: 0px;
     padding: 0px;
     font-family: 'Times New Roman', Times, serif;
+   
 }
 
 body {
@@ -38,7 +39,7 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #dbd5d5;
+    background-color: #ffffff;
     min-width: 160px;
     z-index: 1;
     flex-direction: column;
@@ -51,16 +52,15 @@ body {
 }
 
 .submenu div:hover {
-    background-color: #555;
+    background-color: #b9b7b7;
 }
 
 .show {
     display: flex;
 }
-*/
 
 header {
-    background-color: rgb(165, 164, 164) ;
+    background-color:  rgb(243, 242, 241) ;
     height: 1000px;
 }
 
@@ -164,12 +164,12 @@ ul > li {
     display: inline-block;
     padding: 30px;
     padding-bottom: 10px;
-   cursor: pointer;
+    cursor: pointer;
 }
 
 main {
     background-color: white;
-    height: 1800px;
+    height: 1500px;
 }
 
 div.especial {
@@ -239,6 +239,7 @@ form {
     background-color: black;
     color: red;
     border: none;
+    transition: 2s;
     
 }
 .formulario2:hover {
@@ -287,20 +288,24 @@ form {
 
 .divfooter > h1 {
     font-weight: 100;
+    
 }
 
 #Quick {
     line-height: 100px;
+    
 }
 
 .sociallogo {
     color: rgb(155, 153, 153);
     padding: 10px;
+    
 }
 .pcont {
     line-height: 37px;
     font-size: large;
     color: rgb(155, 153, 153);
+   
 }
 
 .afooter {
@@ -309,6 +314,7 @@ form {
     text-decoration: none;
     color: black;
     line-height: 29px;
+    
 }
 
 a {
@@ -317,6 +323,7 @@ a {
     list-style: none;
     color: black;
     line-height: 29px;
+    
 }
 
 .footerh6 {
@@ -324,17 +331,20 @@ a {
     display: inline;
     padding: 50px;
     color: rgb(155, 153, 153);
+    
 }
 
 #logolast {
     padding-right: 150px;
+    
 }
 
 #footerparag {
     display: inline-block;
     padding: 30px;
     color: rgb(155, 153, 153);
-    font-size: large; 
+    font-size: large;
+     
 }
 
 footer {

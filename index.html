@@ -27,7 +27,6 @@
           <div class="submenu">
             <div>SHOP SIDEBAR</div>
             <div>SHOP THREE COLUMN</div>
-            <div>SHOP THREE COLUMN WIPE</div>
             <div>SHOP FOUR COLUMN</div>
           </div>
         </div>
@@ -36,7 +35,7 @@
           BLOG<img src="imagens/menuIcon.ico" alt="Icon">
           <div class="submenu">
             <div>BLOG CLASS</div>
-            <div>BLOG GRID WITH SIDERAR</div>
+            <div>BLOG GRID WITH</div>
             <div>BLOG NO SIDERAR</div>
             <div>BLOG POST</div>
           </div>
@@ -51,7 +50,7 @@
             <div>COMING SOON</div>
           </div>
         </div>
-        <ul class="menu">
+        <ul class="menu"> 
           <li>BLOG</li>
           <li>CONTACT</li>
           <li>WISHLIST (0)</li>
@@ -59,50 +58,8 @@
         </ul>
       </div>
 
-      <hr>
+       <hr>
 
-      <script>
-        function toggleSubmenu(element) {
-          // Fecha todos os outros submenus primeiro
-          document.querySelectorAll('.submenu').forEach(function(sub) {
-            if (sub !== element.querySelector('.submenu')) {
-              sub.classList.remove('show');
-            }
-          });
-
-          // Alterna o submenu clicado
-          const submenu = element.querySelector('.submenu');
-          if (submenu) {
-            submenu.classList.toggle('show');
-          }
-        }
-
-        // Fecha os submenus ao clicar fora do menu
-          document.addEventListener('click', function(e) {
-            const isMenuClick = e.target.closest('.menu-item');
-            if (!isMenuClick) {
-              document.querySelectorAll('.submenu').forEach(function(sub) {
-                sub.classList.remove('show');
-              });
-            }
-        });
-      </script> 
-        <!--
-        <menu>
-            <ul>
-                <li id="kaira">KAIRA</li>
-                <li id="option" >HOME<img src="imagens/menuIcon.ico" alt="Icon">
-                <li>SHOP<img src="imagens/menuIcon.ico" alt="Icon"></li>
-                <li>BLOG<img src="imagens/menuIcon.ico" alt="Icon"></li>
-                <li>PAGES<img src="imagens/menuIcon.ico" alt="Icon"></li>
-                <li>BLOG</li>
-                <li>CONTACT</li>
-                <li>WISHLIST (0)</li>
-                <li>CART (0) <img src="imagens/pesquisa.ico" alt="pesquisa icon"></li>
-            </ul>
-        </menu>
-        -->
-       
         <h2 class="master">New Collections</h2>
         <p class="paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Sed, provident impedit ab culpa excepturi porro quis <br> laboriosam repudiandae dolores eligendi dolorem <br> minima totam quos, quasi, nisi officiis iste? Nam, ut!</p>
 
@@ -285,6 +242,33 @@
       </p>
         
     </footer>
+
+     <script>
+        function toggleSubmenu(element) {
+          // Fecha todos os outros submenus primeiro
+          document.querySelectorAll('.submenu').forEach(function(sub) {
+            if (sub !== element.querySelector('.submenu')) {
+              sub.classList.remove('show');
+            }
+          });
+
+          // Alterna o submenu clicado
+          const submenu = element.querySelector('.submenu');
+          if (submenu) {
+            submenu.classList.toggle('show');
+          }
+        }
+
+        // Fecha os submenus ao clicar fora do menu
+          document.addEventListener('click', function(e) {
+            const isMenuClick = e.target.closest('.menu-item');
+            if (!isMenuClick) {
+              document.querySelectorAll('.submenu').forEach(function(sub) {
+                sub.classList.remove('show');
+              });
+            }
+        });
+      </script> 
 
 </body>
 </html>
