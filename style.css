@@ -2,8 +2,8 @@
 
 * {
    margin: 0px;
-    padding: 0px;
-    font-family: 'Times New Roman', Times, serif;
+   padding: 0px;
+   font-family: 'Times New Roman', Times, serif;
    
 }
 
@@ -68,7 +68,6 @@ h2.master {
     font-size: 4.3em;
     font-weight: 200;
     padding: 30px;
-
     text-align: center;
 }
 
@@ -78,14 +77,19 @@ h2.master {
     font-size: large;
     line-height: 30px;
     color: rgb(165, 164, 164);
+
 }
 
 .imgtop  {
-    padding: 6px;
+    padding: 50px;
     cursor: pointer;
 }
 
 .imgtopM {
+    padding: 55px;
+}
+
+.imgtopMm {
     padding: 10px;
 }
 
