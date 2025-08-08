@@ -6,19 +6,40 @@
    font-family: 'Times New Roman', Times, serif;
    
 }
-
-body {
+/*
+header {
+    background-color:  rgb(243, 242, 241) ;
+    height: 1000px;
+}
+#imgblock {
+    background-color: rgb(243, 242, 241);
+    height: 800px;
+    position: relative;
+}
+main {
+    background-color: white;
+    height: 1400px;
+}
+div.especial {
+    background-color: white;
+    height: 1350px;
+}
+div.especial2 {
+    background-color: rgb(243, 242, 241);
+    height: 500px;
+}
+div.especial3 {
+    background-color: white;
+    height: 1250px;
+}
+div.especial4 {
+    background-color: rgb(243, 242, 241);
+    height: 580px;
+}
+footer {
     background-color: white;
 }
 
-
-
-.kaira {
-    position: relative;
-    padding: 14px 20px;
-    font-size: 1.8em;
-    font-weight: 600;
-}
 
 .menu {
     background-color: rgb(255, 255, 255);
@@ -31,8 +52,6 @@ body {
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
-
-
 
 .submenu {
     display: none;
@@ -59,299 +78,5 @@ body {
     display: flex;
 }
 
-header {
-    background-color:  rgb(243, 242, 241) ;
-    height: 1000px;
-}
-
-h2.master {
-    font-size: 4.3em;
-    font-weight: 200;
-    padding: 30px;
-    text-align: center;
-}
-
-.paragrafo {
-    text-align: center;
-    padding-bottom: 29px;
-    font-size: large;
-    line-height: 30px;
-    color: rgb(165, 164, 164);
-
-}
-
-.imgtop  {
-    padding: 50px;
-    cursor: pointer;
-}
-
-.imgtopM {
-    padding: 55px;
-}
-
-.imgtopMm {
-    padding: 10px;
-}
-
-.section {
-    display: inline-block;
-    padding: 50px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    margin: 18px;
-
-}
-
-.h3 {
-    padding-bottom: 10px;
-    font-size: 1.5em;
-    font-weight: 100;
-}
-
-.p {
-    color: rgb(165, 164, 164);
-    line-height: 20px;
-}
-
-#h4 {
-    font-size: 1.5em;
-    font-weight: 500;
-    padding: 50px;
-    padding-bottom: 0px;
-    margin: 10px;
-}
-
-#imgblock {
-    background-color: rgb(243, 242, 241);
-    height: 800px;
-    position: relative;
-}
-
-.classic {
-    padding: 20px;
-    font-size: 1.5em;
-    font-weight: 100;
-}
-
-h4.classic2 {
-    font-size: 1.5em;
-    font-weight: 500;
-    padding: 50px;
-    padding-bottom: 20px; 
-}
-
-div#imgblock > .paragrafoh3 {
-    background-color: white;
-    color: rgb(165, 164, 164);
-    padding: 60px;
-    margin: -50px;
-    position: relative;
-    height: 400px;
-    width: 300px;
-    float: right;
-    font-size: larger;
-    line-height: 30px;
-    transform: translate(-100%, 10%);
-
-    
-    
-}
-
-div#imgblock > img#imagem {
-    float: left;
-    padding-left: 200px;
-    padding-top: 70px;
-    
-}
-
-ul > li {
-    display: inline-block;
-    padding: 30px;
-    padding-bottom: 10px;
-    cursor: pointer;
-}
-
-main {
-    background-color: white;
-    height: 1500px;
-}
-
-div.especial {
-    background-color: white;
-    height: 1330px;
-}
-
-div.especial2 {
-    background-color: rgb(243, 242, 241);
-    height: 500px;
-}
-
-div.especial2 > h5 {
-    padding: 20px;
-    font-size: 1.5em;
-    font-weight: 100;
-    text-align: center;
-}
-
-div.especial3 {
-    background-color: white;
-    height: 1250px;
-}
-
-.logo {
-    padding: 50px;
-}
-
-div.especial3 > h4, h3 {
-    font-size: 1.5em;
-    font-weight: 500;
-    padding: 50px;
-    padding-bottom: 20px;
-}
-
-div.especial4 {
-    background-color: rgb(243, 242, 241);
-    height: 580px;
-}
-
-div.especial4 > h2 {
-    font-size: 3em;
-    font-weight: 500;
-    padding: 50px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-form {
-    text-align: center;
-    font-size: 3em;
-    padding-bottom: 5px;
-
-}
-
-.formulario {
-    width: 50%;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.205);
-}
-
-.formulario2 {
-    width: 52%;
-    padding: 15px;
-    background-color: black;
-    color: red;
-    border: none;
-    transition: 2s;
-    
-}
-.formulario2:hover {
-    color: rgba(4, 0, 255, 0.89);
-    background-color: rgb(4, 194, 252);
-    border-radius: 10px;
-    transition: 2s;
-}
-
-.imglink {
-    padding-top: 110px;
-
-}
-
-#linkcenter {
-    background-color: rgb(34, 34, 34);
-    width: 200px;
-    padding: 15px;
-    padding-top: 0px;
-    text-align: center;
-    margin: auto;
-}
-
-#linkcenter > #follow {
-    text-decoration: none;
-    color: white;
-}
-
-#pkaira {
-    line-height: 29px;
-    font-size: large;
-    color: rgb(155, 153, 153);
-    padding: 8px;
-
-}
-
-.divfooter {
-    display: inline-block;
-    padding: 50px;
-    
-}
-
-#kairafooter {
-    font-weight: 600;
-}
-
-.divfooter > h1 {
-    font-weight: 100;
-    
-}
-
-#Quick {
-    line-height: 100px;
-    
-}
-
-.sociallogo {
-    color: rgb(155, 153, 153);
-    padding: 10px;
-    
-}
-.pcont {
-    line-height: 37px;
-    font-size: large;
-    color: rgb(155, 153, 153);
-   
-}
-
-.afooter {
-    font-size: large;
-    list-style: none;
-    text-decoration: none;
-    color: black;
-    line-height: 29px;
-    
-}
-
-a {
-    text-decoration: none;
-    font-size: large;
-    list-style: none;
-    color: black;
-    line-height: 29px;
-    
-}
-
-.footerh6 {
-    font-size: larger;
-    display: inline;
-    padding: 50px;
-    color: rgb(155, 153, 153);
-    
-}
-
-#logolast {
-    padding-right: 150px;
-    
-}
-
-#footerparag {
-    display: inline-block;
-    padding: 30px;
-    color: rgb(155, 153, 153);
-    font-size: large;
-     
-}
-
-footer {
-    background-color: white;
-}
+*/
 
