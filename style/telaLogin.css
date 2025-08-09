@@ -8,15 +8,124 @@
 
 body {
     background-color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 form {
     background-color: white;
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-    padding: 10px;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.151);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.219);
 }
+
+form > h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    color: blue;
+}
+
+input {
+    margin: auto;
+    padding: 10px;
+    font-size: large;
+    width: 310px;
+    height: 50px;
+}
+
+form > input[type=text] {
+    display: block;
+    border: 1.3px solid rgb(214, 214, 214);
+    border-radius: 5px;
+}
+
+form > input[type=text]:hover {
+    border: 1.3px solid rgb(48, 178, 253);
+}
+
+form > input[type=password] {
+    display: block;
+    border: 1.3px solid rgb(214, 214, 214);
+    border-radius: 5px;
+}
+
+form > input[type=password]:hover {
+    border: 1.3px solid rgb(48, 178, 253);
+}
+
+form > input[type=submit] {
+    display: block;
+    background-color: rgb(10, 84, 243);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+form > input[type=submit]:hover {
+    background-color: rgb(38, 116, 233);
+    transition: 0.5s;
+    transition-timing-function: ease;
+}
+
+.esqueceu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.9em;
+}
+
+.esqueceu > a {
+    color: rgb(1, 102, 185);
+}
+
+.esqueceu:hover {
+    text-decoration: underline;
+    color: rgb(1, 102, 185);
+}
+
+hr {
+    border: 0.1px solid rgb(214, 214, 214);
+}
+
+.criar {
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(2, 197, 2);
+    border-radius: 8px;
+    width: 180px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.criar:hover {
+    background-color: rgb(2, 172, 2);
+    transition-timing-function: ease;
+}
+
+.criar > a {
+    
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+    
+}
+
+p {
+    font-size: small;
+}
+
+p, a {
+    text-align: center;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+#ancora {
+    color: black;
+    font-weight: bold;
+}
+
