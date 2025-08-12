@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        body{
+            background-color: rgb(131, 71, 165);
+        }
+
+        h1 {
+            font-size: 1.2em;
+            padding: 10px;
+        }
+
+        p {
+            padding: 10px;
+        }
+
+        img {
+          padding: 30px;
+          margin: 20px;
+          width: 300px;
+          height: auto;
+          transition: transform 0.5s ease;
+        }
+
+        img:hover {
+          transform: scale(1.2);
+        }
+
+        div.imagem {
+            height: 530px;
+            background-color: gray;
+            background: url("iphone.jpg") fixed ;
+            background-size: cover;
+            background-position: center ;
+            background-repeat: no-repeat;
+        }
+
+        #strong {
+            font-weight: bold;
+            color: rgb(53, 17, 87);
+            text-shadow: 0px 1px 0px rgb(184, 184, 184);
+        }
+
+        div.imagem1 {
+            height: 520px;
+            background-color: gray;
+            background: url("pexels-nextvoyage-897232.jpg") fixed;
+            background-size: cover;
+            background-position: top left;
+            background-repeat: no-repeat;   
+        }
+
+        ol {
+            background-color: rgb(191, 142, 236);
+            border-radius: 10px;
+            box-shadow: inset 1px 3px 15px rgba(0, 0, 0, 0.623);
+            margin: auto;
+            padding: 40px;
+            width: 300px;
+            height: 100px;
+        }
+
+        ol > li {
+            line-height: 24px;
+            font-weight: bold;
+        }
+
+        h2 {
+            padding: 10px;
+        }
+
+        form {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a href="Tela login"></a>
+    <h1>Ola! Estas em um bom caminha.</h1>
+    <p>Vê algumas páginas já criadas com os nossos servíços...</p>
+    <img src="pagina.jpg" target="_blanck" alt="Imagens de páginas">
+    <p>Isso é o que fizemos de melhor, trazer a alegria e algo profissional!
+        são oportunidades que te levam ao nível de maior prestígio.
+    </p>
+    <br>
+    <img src="phone.jpg" alt="Imagens de páginas">
+    <p>A paixão mora aqui, com a design free!! A transição é certa os objectivos são os alvos que 
+        que queremos alcansar, still never give up of yours dreams are well!! fight every day cause you are strong.
+    </p>
+    <div class="imagem">
+        <img src="media.jpg" alt="Imagens de páginas">
+        <img src="Gray.jpg" alt="Imagens de páginas">
+    </div>
+
+    <p id="strong">Faz o certo, e crie a sua página. E verás que a tua <br> visualização será melhor, grandes empresas veram a tua criatividade  <br> e o teu desenpenho como profissional.
+    </p>
+    <img src="pexels-andre-furtado-43594-3859985.jpg" alt="Imagens de páginas">
+    <div class="imagem1">
+        <img src="medias.jpg" alt="Imagens de páginas">
+        <img src="gus.jpg" alt="Imagens de páginas">
+    </div>
+    <p>Para criar uma página é necessário seguir as etapas abaixo</p>
+    <ol start="1">
+        <li>Escolha o nome da página</li>
+        <li>Escolha o tipo de página</li>
+        <li>Meter a foto do perfil</li>
+        <li>Escolher as suas actividades</li>
+        <li>No final, aperta o botão "Done"</li>
+    </ol>
+
+    <h2>Crie a sua página</h2>
+
+    <form action="cadastro.php" method="post">
+        <input type="text" name="nome" id="inome" placeholder="Nome da página" required minlength="15">
+    </form>
+</body>
+</html>
