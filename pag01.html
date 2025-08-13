@@ -16,8 +16,16 @@
         }
 
         h1 {
-            font-size: 1.2em;
+            background-color: #9e75fd;
+            color: rgba(36, 20, 46, 0.712);
+            text-shadow: 3px 2px 0px rgba(0, 0, 255, 0.61);
+            box-shadow: 4px 4px 10px rgba(59, 32, 75, 0.712);
             padding: 10px;
+            font-size: 2em;
+            font-weight: 800;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+
         }
 
         p {
@@ -75,12 +83,81 @@
             font-weight: bold;
         }
 
+        #pol {
+            text-align: center;
+            font-weight: 700;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
         h2 {
             padding: 10px;
         }
 
         form {
             padding: 20px;
+            background-color: rgb(182, 155, 255);
+        }
+
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 200;
+            text-shadow: 2px 1px 0px rgb(90, 90, 255);
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        .labelL {
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+            color: #7878ff;
+            text-shadow: 1px 1px 0px rgb(32, 32, 82);
+        }
+
+        input {
+            background-color: rgb(184, 184, 184);
+            color:#7878ff;
+            padding: 7px;
+            cursor: pointer;
+        }
+
+        select {
+            background-color: rgb(214, 214, 214);
+            color:#5353ff;
+            cursor: pointer;
+        }
+
+        input[type=submit] {
+            width: 150px;
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: large;
+            color: #9d9dff;
+            background-color: rgb(3, 3, 128);
+            border: none;
+            transition: 0.2s;
+        }
+
+        input[type=submit]:hover {
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            font-size: large;
+            border: 1px solid blueviolet;
+            border-radius: 10px;
+            transform: scale(1.1);
+        }
+
+        p > a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        p > a:hover {
+            text-decoration: underline;
+        }
+
+        #lastp {
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -109,7 +186,7 @@
         <img src="medias.jpg" alt="Imagens de páginas">
         <img src="gus.jpg" alt="Imagens de páginas">
     </div>
-    <p>Para criar uma página é necessário seguir as etapas abaixo</p>
+    <p id="pol">Para criar uma página é necessário seguir as etapas abaixo</p>
     <ol start="1">
         <li>Escolha o nome da página</li>
         <li>Escolha o tipo de página</li>
@@ -122,6 +199,49 @@
 
     <form action="cadastro.php" method="post">
         <input type="text" name="nome" id="inome" placeholder="Nome da página" required minlength="15">
+        <br><br>
+        <label class="labelL" for="itipo">Tipo de página</label>
+        <br>
+        <select name="tipo" id="itipo" required>
+            <option selected>--Escolha--</option>
+            <option value="p">Pessoal</option>
+            <option value="PT">Pessoal e trabalho</option>
+            <option value="T">Trabalho</option>
+            <option value="D">Diversão</option>
+        </select>
+        <br>
+
+        <label class="labelL" for="imes">Mês</label>
+        <br>
+        <input type="month" name="mes" id="imes" required>
+        <br>
+
+        <fieldset>
+            <legend class="labelL">Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas" checked value="M">
+            <label for="isxmas">Masculino</label><br>
+
+            <input type="radio" name="sexo" id="isxfem">
+            <label for="isxfem">Feminina</label>
+        </fieldset>
+
+        <label class="labelL" for="idata">Data</label>
+        <br>
+        <input type="date" name="data" id="idata" required>
+        <br>
+
+        <label class="labelL" for="ihora">Hora</label>
+        <br>
+        <input type="time" name="hora" id="ihora">
+        <br>
+
+        <label class="labelL" for="ifoto">Foto</label>
+        <br>
+        <input type="file" name="foto" id="ifoto" required>
+        <br>
+        <input type="submit" value="Done">
+
+        <p id="lastp"><a href="index.html">Voltar na página inicial</a></p>
     </form>
 </body>
 </html>
