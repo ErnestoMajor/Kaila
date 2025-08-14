@@ -13,15 +13,15 @@
 
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-color: rgb(204, 204, 204);
+            background-color: rgb(240, 238, 238);
         }
 
         form {
             background-color: white;
             margin: auto;
             border-radius: 8px;
-            box-shadow: inset 1px 2px 10px rgba(0, 0, 0, 0.699);
-            width: 400px;
+            box-shadow: inset 1px 2px 10px rgba(0, 0, 0, 0.356);
+            width: 420px;
             height: 600px;
             
         }
@@ -29,15 +29,78 @@
         h1 {
             padding: 20px;
             text-align: center;
-            color: rgb(10, 10, 201);
-            text-shadow: 2px 1px 0px white;
+            color: rgb(0, 0, 255);
+            text-shadow: 2px 1px 0px rgb(0, 0, 0);
+            font-size: 3.2em;
+        }
+
+        h2 {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        form > p {
+            text-align: center;
+            font-size: .9em;
+            color: rgb(109, 109, 109);
+            line-height: 30px;
+            padding-bottom: 5px;
         }
     </style>
 </head>
 <body>
-    <h1>Criar uma conta nova</h1>
+    <h1>facebook</h1>
     <form action="cadastro.php" method="post">
+       <h2>Criar uma nova conta</h2>
+       <p>É rápido e fácil.</p>
+       <hr>
+
+       <div class="nome">
+        <label for="inome"></label>
+        <input type="text" name="nome" id="inome" placeholder="Nome" required>
+       </div>
+
+       <div class="sobrenome">
+        <label for="isobren"></label>
+        <input type="text" name="sobren" id="isobren" placeholder="Sobrenome" required>
+       </div>
+
+       <div class="nascimento">
+        <p>Data de nascimento</p>
+        <label for="inasc"></label>
+        <input type="date" name="nasc" id="inasc">
+       </div>
+
+       <div class="gene" aria-required="true">
        
+        <legend>Gênero</legend>
+        <input type="radio" name="sex" id="isexmas" value="M">
+        <label for="isexmas">Masculino</label>
+
+        <input type="radio" name="sex" id="isexfem" value="F">
+        <label for="isexfem">Feminino</label>
+
+        <input type="radio" name="sex" id="isexper">
+        <label for="isexper">Personalizado</label>
+       </div>
+
+       <div class="email">
+        <label for="iemail"></label>
+        <input type="email" name="email" id="iemail" required>
+       </div>
+
+       <div class="senha">
+        <label for="isenha"></label>
+        <input type="password" name="senha" id="isenha" required>
+       </div>
+
+        <div>
+          As pessoas que usam nosso serviço podem ter carregado suas informações de contato no Facebook. <a href="">Saiba mais</a>.
+          Ao clicar em Cadastre-se, você concorda com nossos <a href="">Termos, Política de Privacidade e Política de Cookies</a>. Você poderá receber notificações por SMS e cancelar isso quando quiser.
+        </div>
+
+       <input type="submit" value="Cadastre-se">
+       <p><a href="">Já tem nova conta?</a></p>
     </form>
 </body>
 </html>
