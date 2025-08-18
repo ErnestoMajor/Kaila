@@ -22,8 +22,90 @@
             border-radius: 8px;
             box-shadow: inset 1px 2px 10px rgba(0, 0, 0, 0.356);
             width: 420px;
-            height: 600px;
+            height: 700px;
             
+        }
+
+        .nome {
+            display: inline-block;
+            padding: 18px;
+            padding-top: 20px;
+        }
+
+        input[type=text] {
+            background-color: rgba(231, 219, 241, 0.664);
+            padding: 8px;
+            width: 170px;
+            border: none;
+            border-radius: 10px;
+        }
+
+        .sobrenome {
+            display: inline-block;
+            padding: 16px;
+            padding-top: 20px;
+        }
+
+        .nascimento {
+            text-align: center;
+            padding: 10px;
+            line-height: 30px;
+        }
+
+        input[type=date] {
+            padding: 6px;
+            cursor: pointer;
+        }
+
+        .gene {
+            padding: 20px;
+        }
+
+        .gene > legend {
+            text-align: center;
+            line-height: 30px;
+        }
+
+        .email {
+            padding: 15px;
+        }
+
+        input[type=email] {
+            background-color: rgba(64, 51, 253, 0.842);
+            padding: 8px;
+            width: 250px;
+            border-radius: 10px;
+          
+        }
+
+        .senha {
+            padding: 15px;
+        }
+
+        input[type=password] {
+            background-color: rgba(64, 51, 253, 0.842);
+            padding: 8px;
+            width: 250px;
+            border-radius: 10px;
+        }
+
+        div.p {
+            font-size: small;
+            padding: 15px;
+        }
+
+        input[type=submit] {
+            background-color: darkgreen;
+            padding: 10px;
+            width: 110px;
+            margin: 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            
+        }
+
+        p > a {
+            color: rgb(1, 87, 167);
         }
 
         h1 {
@@ -71,7 +153,7 @@
         <input type="date" name="nasc" id="inasc">
        </div>
 
-       <div class="gene" aria-required="true">
+       <div class="gene">
        
         <legend>Gênero</legend>
         <input type="radio" name="sex" id="isexmas" value="M">
@@ -86,15 +168,15 @@
 
        <div class="email">
         <label for="iemail"></label>
-        <input type="email" name="email" id="iemail" required>
+        <input type="email" name="email" id="iemail" required placeholder="Email">
        </div>
 
        <div class="senha">
         <label for="isenha"></label>
-        <input type="password" name="senha" id="isenha" required>
+        <input type="password" name="senha" id="isenha" required placeholder="Senha">
        </div>
 
-        <div>
+        <div class="p">
           As pessoas que usam nosso serviço podem ter carregado suas informações de contato no Facebook. <a href="">Saiba mais</a>.
           Ao clicar em Cadastre-se, você concorda com nossos <a href="">Termos, Política de Privacidade e Política de Cookies</a>. Você poderá receber notificações por SMS e cancelar isso quando quiser.
         </div>
